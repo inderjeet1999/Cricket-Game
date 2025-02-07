@@ -1,0 +1,34 @@
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+  background-image: url('images/cricket-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+}
+
+.choice-button {
+  height: 100px;
+  width: 100px;
+  border: none;
+  margin: 10px;
+  background-color: rgb(164, 212, 130);
+  border-radius: 50px;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.3s;
+}
+
+.choice-button:hover {
+  transform: scale(1.1);
+  background-color: rgb(144, 192, 110);
+}
+
+.choice-image {
+  height: 75px;
+  transition: transform 0.2s;
+}
+
+.choice-button:active .choice-image {
+  transform: scale(0.9);
+}
